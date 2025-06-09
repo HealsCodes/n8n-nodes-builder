@@ -20,7 +20,10 @@
       ],
       "outputCapture": "std",
       "killBehavior": "polite",
-      "sourceMaps": true
+      "sourceMaps": true,
+      "env": {
+        "N8N_SECURE_COOKIE": "false"
+      }
     },
     {
       "name": "Launch n8n with debug",
@@ -36,7 +39,10 @@
         "<node_internals>/**"
       ],
       "outputCapture": "std",
-      "killBehavior": "polite"
+      "killBehavior": "polite",
+      "env": {
+        "N8N_SECURE_COOKIE": "false"
+      }
     },
     {
       "name": "Launch n8n CLI dev with debug",
@@ -56,7 +62,10 @@
         "<node_internals>/**"
       ],
       "outputCapture": "std",
-      "killBehavior": "polite"
+      "killBehavior": "polite",
+      "env": {
+        "N8N_SECURE_COOKIE": "false"
+      }
     }
   ]
 }
